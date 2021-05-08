@@ -1,0 +1,10 @@
+{
+  "domain": "googletts",
+  "name": "Google Assistant TTS",
+  "version": "1.0.0",
+  "documentation": "https://github.com/caj380/hass-assistant-relay-tts",
+  "dependencies": [],
+  "codeowners": ["@caj380"],
+  "requirements": ["requests==2.25.1"],
+  "issue_tracker": "https://github.com/caj380/hass-assistant-relay-tts/issues"
+}
