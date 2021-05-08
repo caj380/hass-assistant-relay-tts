@@ -60,8 +60,6 @@ class GoogleProvider(Provider):
             language = self._lang
         try:
             r = requests.get('http://192.168.1.105:4000/tts?text=' + message)
-            #convert = pyttsreverso.ReversoTTS()
-            #data = convert.convert_text(voice=language, pitch=self._pitch, bitrate=self._bitrate, msg=message)
         except Exception as e:
             _LOGGER.error("Error while to convert: %s", str(e))
             return (None, None)
