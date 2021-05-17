@@ -5,6 +5,9 @@
   "documentation": "https://github.com/caj380/hass-assistant-relay-tts",
   "dependencies": [],
   "codeowners": ["@caj380"],
-  "requirements": ["requests==2.25.1"],
+  "requirements": [
+    "requests==2.25.1",
+    "ffmpeg-python==0.2.0"
+  ],
   "issue_tracker": "https://github.com/caj380/hass-assistant-relay-tts/issues"
 }
