@@ -1,5 +1,5 @@
 {
-  "domain": "googletts",
+  "domain": "google_assistant_tts",
   "name": "Google Assistant TTS",
   "version": "1.0.0",
   "documentation": "https://github.com/caj380/hass-assistant-relay-tts",
